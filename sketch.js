@@ -65,7 +65,7 @@ image(paperImg,ball.position.x,ball.position.y,radius,radius);
 function keyPressed() {
   	if (keyCode === UP_ARROW) {
 
-		Matter.Body.applyForce(ball,ball.position,{x:60,y:-100});
+		Matter.Body.applyForce(ball,ball.position,{x:50,y:-85});
     
   	}
 }
